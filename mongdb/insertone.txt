@@ -1,0 +1,19 @@
+> show dbs
+admin    0.000GB
+authe    0.000GB
+backend  0.000GB
+config   0.000GB
+imgur    0.000GB
+local    0.000GB
+> use students
+switched to db students
+> db.studentData.insertOne({})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6131fdd4780875fe8575f32a")
+}
+> db.studentData.insertOne({"name":"akash", "email": "akash@gmail.com", "age": 22})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6131fe61780875fe8575f32b")
+}

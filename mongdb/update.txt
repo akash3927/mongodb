@@ -1,0 +1,11 @@
+> db.studentData.updateOne({age: 22}, {$set:{surname: "sky"}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+> db.studentData.find().pretty()
+{ "_id" : ObjectId("6131fdd4780875fe8575f32a") }
+{
+        "_id" : ObjectId("6131fe61780875fe8575f32b"),
+        "name" : "akash",
+        "email" : "akash@gmail.com",
+        "age" : 22,
+        "surname" : "sky"
+}

@@ -1,0 +1,5 @@
+> db.studentData.deleteOne({age: 22})
+{ "acknowledged" : true, "deletedCount" : 1 }
+> db.studentData.find().pretty()
+{ "_id" : ObjectId("6131fdd4780875fe8575f32a") }
+>

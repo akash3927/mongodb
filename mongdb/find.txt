@@ -1,0 +1,13 @@
+> db.studentData.find()
+{ "_id" : ObjectId("6131fdd4780875fe8575f32a") }
+{ "_id" : ObjectId("6131fe61780875fe8575f32b"), "name" : "akash", "email" : "akash@gmail.com", "age" : 22 }
+>
+db.studentData.find().pretty()
+{ "_id" : ObjectId("6131fdd4780875fe8575f32a") }
+{
+        "_id" : ObjectId("6131fe61780875fe8575f32b"),
+        "name" : "akash",
+        "email" : "akash@gmail.com",
+        "age" : 22
+}
+> 
